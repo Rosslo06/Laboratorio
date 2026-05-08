@@ -4,14 +4,16 @@ public class utente {
     //CAMPI 
     private String nome;
     private String cognome;
-    private String età;
     private int password;
+    private String username;
+    private String codicefiscale;
 
     //COSTRUTTORI
-    public utente(String nome, String cognome, String età, int password) {
+    public utente(String nome, String cognome, String username, String codicefiscale, int password) {
         this.nome = nome;
         this.cognome = cognome;
-        this.età = età;
+        this.username = username;
+        this.codicefiscale = codicefiscale;
         this.password = password;
     }
 
@@ -32,12 +34,20 @@ public class utente {
         this.cognome = cognome;
     }
 
-    public String getEtà() {
-        return età;
+    public String getUsername() {
+        return username;
     }
 
-    public void setEtà(String età) {
-        this.età = età;
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getCodicefiscale() {
+        return codicefiscale;
+    }
+
+    public void setCodicefiscale(String codicefiscale) {
+        this.codicefiscale = codicefiscale;
     }
 
     public int getPassword() {
