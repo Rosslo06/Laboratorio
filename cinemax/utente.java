@@ -7,6 +7,9 @@ public class utente {
     private int password;
     private String username;
     private String codicefiscale;
+    private String dataNascita;
+    private String email;
+    private String ruolo;
 
     //COSTRUTTORI
     /**
@@ -19,12 +22,15 @@ public class utente {
      * @param password password dell'utente
      *
      */
-    public utente(String nome, String cognome, String username, String codicefiscale, int password) {
+    public utente(String nome, String cognome, String username, String codicefiscale, int password, String dataNascita, String email, String ruolo) {
         this.nome = nome;
         this.cognome = cognome;
         this.username = username;
         this.codicefiscale = codicefiscale;
         this.password = password;
+        this.dataNascita = dataNascita;
+        this.email = email;
+        this.ruolo = ruolo;
     }
 
     //METODI

@@ -1,0 +1,10 @@
+nome, cognome, password, username, codiceFiscale, dataNascita, email, ruolo, luogoDomicilio
+
+"Andrea","Rossetti",1234,"andrea.ross","RSSNDR90A01H501X","1990-01-01","andrea.ross@example.com", "proiezionista", "Vergiate"
+"Mario","Rossi",5678,"mario.rossi","RSSMRA85B15H501Y","1985-02-15","mario.rossi@example.com", "proiezionista", "Milano"
+
+"Maria","Bianchi",9012,"maria.bianchi","BNCMRA92C30H501Z","1992-03-30","maria.bianchi@example.com", "bigliettaio", "Roma"
+"Luigi","Verdi",3456,"luigi.verdi","VRDLGI88D20H501W","1988-04-20","luigi.verdi@example.com", "bigliettaio", "Napoli"
+"Giulia","Neri",7890,"giulia.neri","NRGGLI95E10H501V","1995-05-10","giulia.neri@example.com", "bigliettaio", "Torino"
+"Carlo","Esposito",2345,"carlo.esposito","ESPCAR80F25H501U","1980-06-25","carlo.esposito@example.com", "bigliettaio", "Bologna"
+"Francesca","Russo",6789,"francesca.russo","RSSFNC90G05H501T","1990-07-05","francesca.russo@example.com", "bigliettaio", "Bologna"
